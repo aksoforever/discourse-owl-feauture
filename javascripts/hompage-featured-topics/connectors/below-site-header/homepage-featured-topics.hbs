@@ -9,9 +9,9 @@
           {{/if}}
           {{conditional-loading-spinner condition=loadingFeatures}}
 
-          <div class="featured-topics">
+          <div class="featured-topics owl-carousel owl-theme">
             {{#each customFeaturedTopics as |t|}}
-              <div class="featured-topic">
+              <div class="featured-topic item">
                 <div class="featured-topic-image" style="background-image: url({{t.image_url}})">
                   <div class="featured-topic-text">
                     <h3>{{topic-link t}}</h3>
@@ -28,3 +28,7 @@
 
   {{/if}}
 {{/if}}
+
+
+
+
