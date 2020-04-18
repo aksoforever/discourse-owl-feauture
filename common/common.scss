@@ -1,4 +1,15 @@
-    .owl-container{
+.homepage-featured-topics {
+  #main-outlet {
+    padding-top: 1.5em;
+    @media screen and (max-width: 450px) {
+      padding-top: 0.5em;
+    }
+  }
+}
+
+
+
+.owl-container{
       max-width: 1000px;
       margin: 0 auto;
       .item{
